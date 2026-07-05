@@ -1,0 +1,15 @@
+# Environment variables / secrets - never commit real values
+.env
+*.Renviron
+*service-account*.json
+*credentials*.json
+
+# renv
+renv/library/
+renv/staging/
+renv/python/
+
+# RStudio
+.Rproj.user/
+.Rhistory
+.RData
